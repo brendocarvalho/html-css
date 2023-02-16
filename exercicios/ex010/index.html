@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+    <link rel="shortcut icon" href="Knife.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar meu <a href="https://github.com/brendocarvalho" target="_blank">repositório público no GitHub</a></p>
+    <p>Você também pode acessar o <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal do curso em vídeo no youtube</a></p> <!--Utilizando TARGET para abrir o link em uma nova aba e utilizando rel = external para referenciar-->
+
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do meu site. Se você quiser, também pode acessar a <a href="pag002.html" rel="next">segunda página do meu site</a></p>
+    <p>Para acessar o nosso site de noticias (terceira página) basta clicar no link a seguir: <a href="noticias/pag003.html" target="_self" rel="next">Noticias/terceira página</a></p>
+    <p>No paragrafo a cima para acessar a terceira página que está em outra pasta utilizei <code>(a tag 'a href' ctrl + espaço ../ selecione o nome do arquivo)</code></p>
+
+    <h1>Links para download</h1>
+    <ul type = "square">
+        <li><a href="Livro/livroJs.pdf" download="livro.Js.pdf" type="application/pdf">Download do livro em PDF</a></li>
+        <li><a href="Livro/livroJs.zip" download="livro.Js.zip" type="application/zip">Download do livro compactado</a></li>          <!--Download do livro utilizando TYPE = application-->
+    
+    </ul>
+
+
+
+</body>
+</html>

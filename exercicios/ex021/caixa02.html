@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 4px 4px 9px 1px rgba(0, 0, 0, 0.377);
+        }
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.377);
+        }
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 1px rgba(0, 0, 0, 0.377);
+        }
+        article{
+            background-color: lightgray;
+            padding: 3px;
+        }
+        article > aside{
+            background-color: rgb(165, 165, 165);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            
+        }
+        footer > p{
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <!--Conteúdo/Principal-->
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur fugiat nemo voluptate minima obcaecati et consequuntur, earum illo at similique est molestiae nobis sunt itaque illum, dignissimos magni quae aliquam.</p>
+                <aside>
+                    <p>Artigo escrito por Brendo Filemon</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <!--Rodapé-->
+    <footer>
+        <p>Desenvolvido por Brendo Filemon </p>
+    </footer>
+</body>
+</html>

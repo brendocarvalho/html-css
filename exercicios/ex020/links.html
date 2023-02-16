@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* Seletores Personalizados
+        # = ID
+        . = Class
+        : = Pseudo-class
+        :: = Pseudo-Element
+        > = Children / herança
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        a{
+            color: greenyellow;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a:visited{
+            color: darkgreen;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: rgb(0, 255, 149);
+        }
+        .especial{
+            background-color: rgb(252, 253, 171);
+        }
+        .especial::before{
+            content: ' ★ ';
+        }
+        .especial::after{
+            content: ' ★ ';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank" rel="external">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo" target="_blank" rel="external" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://cursoemvideo.com" target="_blank" rel="external" class="especial">Site do CursoemVídeo</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" rel="external">Youtube</a></li>
+        <li><a href="https://facebook.com" target="_blank" rel="external">Facebook</a></li>
+        <li><a href="https://Google.com">Google</a></li>
+        <li><a href="https://Twitter" target="_blank" rel="external">Twitter</a></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
